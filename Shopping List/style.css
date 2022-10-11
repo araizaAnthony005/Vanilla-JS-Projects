@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.fa-circle-minus,
+.fa-circle-check {
+    pointer-events: none;
+}
+.addTodoForm {
+    display: flex;
+    gap: 2rem;
+}
+.checkedBtn {
+    opacity: .5;
+    text-decoration: line-through;
+    transition-duration: 500ms;
+}
+.fall {
+    transition-duration: 1000ms;
+    transform: translateY(45vh);
+    opacity: 0;
+}
