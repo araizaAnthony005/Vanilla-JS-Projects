@@ -9,28 +9,25 @@
 </head>
 <body>
     <div class="todoListContainer">
-        <div class="top">
-            <div class="titleWrapper">
-                <h1>Shopping List</h1>
+        <div class="titleWrapper">
+            <h1>Shopping List</h1>
+        </div>
+        <form class="addTodoForm">
+            <div>
+                <input id="input">
+                <button id="btn" type="submit">Add To List</button>
             </div>
-            <form class="addTodoForm">
-                <div>
-                    <input id="input">
-                    <button id="btn" type="submit">Add To List</button>
-                </div>
-                <div>
-                    <select id="selectTodo">
-                        <option value="all">All</option>
-                        <option value="completed">Completed</option>
-                        <option value="uncompleted">Uncompleted</option>
-                    </select>
-                </div>
-            </form>
-            <div class="itemWrapper">
-                <ul class="todoList">
-
-                </ul>
+            <div>
+                <select id="selectTodo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
             </div>
+        </form>
+        <div class="itemWrapper">
+            <ul class="todoList">
+            </ul>
         </div>
     </div>
 <script src="app.js"></script>
